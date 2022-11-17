@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Enter the first number:");
+        int n1 = scn.nextInt();
+        System.out.println("Enter the second number:");
+        int n2 = scn.nextInt();
+        
+        int sum = n1 + n2;
+        System.out.println("Sum is " + sum);
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MAX_VALUE);
+    }
+}
